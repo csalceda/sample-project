@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+    .bg.padding {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .first-nav {
+        display: none;
+    }
+    .main-nav #main-nav-links {
+        display: none;
+    }
+    .main-nav button .navbar-toggler {
+        display: block;
+    }
+}
+@media screen and (max-width: 767px) {
+    #announcement-block .announce-card {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 575px) {
+    #about-block .about-col {
+        margin-top: 0;
+    }
+
+    #about-page .vision-card {
+        margin-top: 50px;
+        min-height: 60vh;
+    }
+
+    /* Announcements */
+    #announcements .left-divide {
+        padding-bottom: 0;
+    }
+    #announcements .right-divide {
+        padding-top: 0;
+    }
+    #announcements .announce-card {
+        margin-top: 20px;
+    }
+    #show-announcement .announce-card {
+        margin-top: 20px;
+    }
+    #contact .right-divide {
+        padding-top: 0;
+    }
+}
